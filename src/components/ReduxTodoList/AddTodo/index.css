@@ -1,0 +1,10 @@
+.text{
+  margin-right: 10px;
+}
+.addTodo{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin-bottom: 15px;
+}

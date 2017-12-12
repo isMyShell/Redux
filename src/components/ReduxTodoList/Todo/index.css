@@ -1,0 +1,23 @@
+.todo{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.notice{
+  align-self: flex-start;
+}
+p{
+  flex: 1;
+  user-select: none;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.icon{
+  justify-self: end;
+  margin-right: 10px;
+  cursor: pointer;
+  align-self: flex-start;
+  margin-top: 5px;
+  margin-left: 5px;
+  color: #108ee9;
+}
