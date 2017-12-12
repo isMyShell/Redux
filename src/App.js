@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import 'antd/dist/antd.min.css'
-import { Provider } from 'react-redux'
-import store from './store/index'
+// import { Provider } from 'react-redux'
+// import store from './store/index'
 import MyTodoList from './components/StateAndPropsTodoList/MyTodoList'
 import MyReduxTodoList from './components/ReduxTodoList/MyReduxTodoList'
 
@@ -19,10 +19,10 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <MyTodoList></MyTodoList>
-        <Provider store={store}>
+        {/* <Provider store={store}>
           <MyReduxTodoList></MyReduxTodoList>
-        </Provider>
-        
+        </Provider> */}
+        <MyReduxTodoList></MyReduxTodoList>
       </div>
     );
   }
