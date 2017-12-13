@@ -1,5 +1,5 @@
 import React from 'react'
-import { Router, Route, browserHistory, Redirect, IndexRoute} from 'react-router'
+import { Router, Route, browserHistory, Redirect} from 'react-router'
 
 // import App from './App.js'
 // import NoPage from './components/NoPage/index'
